@@ -240,7 +240,7 @@ to go
 end
 
 to import-2500BP-climatic-data
-  set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/RDMed_postdoc/Article_RDMed_2021/Soumission_PNAS/ROMCLIM_data/External_files"
+  set-current-directory "https://github.com/Bernigaud2021/ROMCLIM/tree/main/External_files"
   set P1_2500 gis:load-dataset "Climatic_data/PRECIP/Precip_2500BP_1.asc"; importation des précip. mensuelles de 2500 BP
   set P2_2500 gis:load-dataset "Climatic_data/PRECIP/Precip_2500BP_2.asc"
   set P3_2500 gis:load-dataset "Climatic_data/PRECIP/Precip_2500BP_3.asc"
