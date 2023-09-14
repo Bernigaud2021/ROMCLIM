@@ -121,7 +121,6 @@ to setup
   reset-ticks
   resize-world 0 65 0 33
   gis:set-world-envelope [2.0833 7.583299779999999 42.1666678 45]
-  ;set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/RDMed_postdoc/Article_RDMed_2021/Soumission_PNAS/ROMCLIM_data/External_files/Shapefiles"
   set-current-directory user-directory ;select the folder "ROMCLIM_data/External_files/"
   gis:load-coordinate-system "Shapefiles/4326.prj"
   set Capitales gis:load-dataset "Shapefiles/Chef_lieux_cite_.shp"; charge shapefile capitales de cités
