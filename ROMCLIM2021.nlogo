@@ -617,8 +617,7 @@ to import-1300BP-climatic-data
 end
 
 to import-REF-climatic-data
-  set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/RDMed_postdoc/Article_RDMed_2021/Soumission_PNAS/ROMCLIM_data/External_files/Climatic_data/REF"
-  ;set-current-directory "REF/Climatic_data/PRECIPITATIONS"
+  set-current-directory "https://github.com/Bernigaud2021/ROMCLIM/tree/main/External_files/Climatic_data/REF"
   set P1_REF gis:load-dataset "PRECIPITATIONS/ALADIN_PREC_REF_1.asc"
   set P2_REF gis:load-dataset "PRECIPITATIONS/ALADIN_PREC_REF_2.asc"
   set P3_REF gis:load-dataset "PRECIPITATIONS/ALADIN_PREC_REF_3.asc"
@@ -631,8 +630,7 @@ to import-REF-climatic-data
   set P10_REF gis:load-dataset "PRECIPITATIONS/ALADIN_PREC_REF_10.asc"
   set P11_REF gis:load-dataset "PRECIPITATIONS/ALADIN_PREC_REF_11.asc"
   set P12_REF gis:load-dataset "PRECIPITATIONS/ALADIN_PREC_REF_12.asc"
-  ;set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/RDMed_postdoc/Article_RDMed_2021/Soumission_PNAS/ROMCLIM_data/External_files/Climatic_data/REF/Climatic_data/TEMPERATURES"
-  ;set-current-directory "REF/Climatic_data/TEMPERATURES"
+  
   set T1_REF gis:load-dataset "TEMPERATURES/ALADIN_TEMP_REF_1.asc"
   set T2_REF gis:load-dataset "TEMPERATURES/ALADIN_TEMP_REF_2.asc"
   set T3_REF gis:load-dataset "TEMPERATURES/ALADIN_TEMP_REF_3.asc"
