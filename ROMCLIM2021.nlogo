@@ -385,7 +385,7 @@ to import-2100BP-climatic-data
 end
 
 to import-2000BP-climatic-data
-  set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/RDMed_postdoc/Article_RDMed_2021/Soumission_PNAS/ROMCLIM_data/External_files"
+  set-current-directory "https://github.com/Bernigaud2021/ROMCLIM/tree/main/External_files"
   set P1_2000 gis:load-dataset "Climatic_data/PRECIP/Precip_2000BP_1.asc"; importation précipitations mensuelles 2000 BP
   set P2_2000 gis:load-dataset "Climatic_data/PRECIP/Precip_2000BP_2.asc"
   set P3_2000 gis:load-dataset "Climatic_data/PRECIP/Precip_2000BP_3.asc"
@@ -414,7 +414,7 @@ to import-2000BP-climatic-data
 end
 
 to import-1900BP-climatic-data
-  set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/RDMed_postdoc/Article_RDMed_2021/Soumission_PNAS/ROMCLIM_data/External_files"
+  set-current-directory "https://github.com/Bernigaud2021/ROMCLIM/tree/main/External_files"
   set P1_1900 gis:load-dataset "Climatic_data/PRECIP/Precip_1900BP_1.asc"; importation précipitations mensuelles 1900 BP
   set P2_1900 gis:load-dataset "Climatic_data/PRECIP/Precip_1900BP_2.asc"
   set P3_1900 gis:load-dataset "Climatic_data/PRECIP/Precip_1900BP_3.asc"
@@ -443,7 +443,7 @@ to import-1900BP-climatic-data
 end
 
 to import-1800BP-climatic-data
-  set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/RDMed_postdoc/Article_RDMed_2021/Soumission_PNAS/ROMCLIM_data/External_files"
+  set-current-directory "https://github.com/Bernigaud2021/ROMCLIM/tree/main/External_files"
   set P1_1800 gis:load-dataset "Climatic_data/PRECIP/Precip_1800BP_1.asc"; importation précipitations mensuelles 1800 BP
   set P2_1800 gis:load-dataset "Climatic_data/PRECIP/Precip_1800BP_2.asc"
   set P3_1800 gis:load-dataset "Climatic_data/PRECIP/Precip_1800BP_3.asc"
@@ -472,7 +472,7 @@ to import-1800BP-climatic-data
 end
 
 to import-1700BP-climatic-data
-  set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/RDMed_postdoc/Article_RDMed_2021/Soumission_PNAS/ROMCLIM_data/External_files"
+  set-current-directory "https://github.com/Bernigaud2021/ROMCLIM/tree/main/External_files"
   set P1_1700 gis:load-dataset "Climatic_data/PRECIP/Precip_1700BP_1.asc"; importation précipitations mensuelles 1700 BP
   set P2_1700 gis:load-dataset "Climatic_data/PRECIP/Precip_1700BP_2.asc"
   set P3_1700 gis:load-dataset "Climatic_data/PRECIP/Precip_1700BP_3.asc"
@@ -501,7 +501,7 @@ to import-1700BP-climatic-data
 end
 
 to import-1600BP-climatic-data
-  set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/RDMed_postdoc/Article_RDMed_2021/Soumission_PNAS/ROMCLIM_data/External_files"
+  set-current-directory "https://github.com/Bernigaud2021/ROMCLIM/tree/main/External_files"
   set P1_1600 gis:load-dataset "Climatic_data/PRECIP/Precip_1600BP_1.asc"; importation précipitations mensuelles 1600 BP
   set P2_1600 gis:load-dataset "Climatic_data/PRECIP/Precip_1600BP_2.asc"
   set P3_1600 gis:load-dataset "Climatic_data/PRECIP/Precip_1600BP_3.asc"
@@ -530,7 +530,7 @@ to import-1600BP-climatic-data
 end
 
 to import-1500BP-climatic-data
-  set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/RDMed_postdoc/Article_RDMed_2021/Soumission_PNAS/ROMCLIM_data/External_files"
+  set-current-directory "https://github.com/Bernigaud2021/ROMCLIM/tree/main/External_files"
   set P1_1500 gis:load-dataset "Climatic_data/PRECIP/Precip_1500BP_1.asc"; importation précipitations mensuelles 1500 BP
   set P2_1500 gis:load-dataset "Climatic_data/PRECIP/Precip_1500BP_2.asc"
   set P3_1500 gis:load-dataset "Climatic_data/PRECIP/Precip_1500BP_3.asc"
@@ -559,7 +559,7 @@ to import-1500BP-climatic-data
 end
 
 to import-1400BP-climatic-data
-  set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/RDMed_postdoc/Article_RDMed_2021/Soumission_PNAS/ROMCLIM_data/External_files"
+  set-current-directory "https://github.com/Bernigaud2021/ROMCLIM/tree/main/External_files"
   set P1_1400 gis:load-dataset "Climatic_data/PRECIP/Precip_1400BP_1.asc"; importation précipitations mensuelles 1400 BP
   set P2_1400 gis:load-dataset "Climatic_data/PRECIP/Precip_1400BP_2.asc"
   set P3_1400 gis:load-dataset "Climatic_data/PRECIP/Precip_1400BP_3.asc"
@@ -588,7 +588,7 @@ to import-1400BP-climatic-data
 end
 
 to import-1300BP-climatic-data
-  set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/RDMed_postdoc/Article_RDMed_2021/Soumission_PNAS/ROMCLIM_data/External_files"
+  set-current-directory "https://github.com/Bernigaud2021/ROMCLIM/tree/main/External_files"
   set P1_1300 gis:load-dataset "Climatic_data/PRECIP/Precip_1300BP_1.asc"; importation précipitations mensuelles 1300 BP
   set P2_1300 gis:load-dataset "Climatic_data/PRECIP/Precip_1300BP_2.asc"
   set P3_1300 gis:load-dataset "Climatic_data/PRECIP/Precip_1300BP_3.asc"
