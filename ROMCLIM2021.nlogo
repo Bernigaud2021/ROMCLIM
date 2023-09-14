@@ -673,71 +673,71 @@ gis:apply-raster T11_REF T11_REF_
 gis:apply-raster T12_REF T12_REF_
 end
 
-to import-Grapes-LPJmL
-  set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/LPJmL_Alberte_2020/grapes_LScor_ASC/grapes_LScor_ASC"
-  set GR_2500 gis:load-dataset "grapes_rainfed_hlha_ag_2500BP_LScor.asc"
-  set GR_2400 gis:load-dataset "grapes_rainfed_hlha_ag_2400BP_LScor.asc"
-  set GR_2300 gis:load-dataset "grapes_rainfed_hlha_ag_2300BP_LScor.asc"
-  set GR_2200 gis:load-dataset "grapes_rainfed_hlha_ag_2200BP_LScor.asc"
-  set GR_2100 gis:load-dataset "grapes_rainfed_hlha_ag_2100BP_LScor.asc"
-  set GR_2000 gis:load-dataset "grapes_rainfed_hlha_ag_2000BP_LScor.asc"
-  set GR_1900 gis:load-dataset "grapes_rainfed_hlha_ag_1900BP_LScor.asc"
-  set GR_1800 gis:load-dataset "grapes_rainfed_hlha_ag_1800BP_LScor.asc"
-  set GR_1700 gis:load-dataset "grapes_rainfed_hlha_ag_1700BP_LScor.asc"
-  set GR_1600 gis:load-dataset "grapes_rainfed_hlha_ag_1600BP_LScor.asc"
-  set GR_1500 gis:load-dataset "grapes_rainfed_hlha_ag_1500BP_LScor.asc"
-  set GR_1400 gis:load-dataset "grapes_rainfed_hlha_ag_1400BP_LScor.asc"
-  set GR_1300 gis:load-dataset "grapes_rainfed_hlha_ag_1300BP_LScor.asc"
-end
+;to import-Grapes-LPJmL
+  ;set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/LPJmL_Alberte_2020/grapes_LScor_ASC/grapes_LScor_ASC"
+  ;set GR_2500 gis:load-dataset "grapes_rainfed_hlha_ag_2500BP_LScor.asc"
+  ;set GR_2400 gis:load-dataset "grapes_rainfed_hlha_ag_2400BP_LScor.asc"
+  ;set GR_2300 gis:load-dataset "grapes_rainfed_hlha_ag_2300BP_LScor.asc"
+  ;set GR_2200 gis:load-dataset "grapes_rainfed_hlha_ag_2200BP_LScor.asc"
+  ;set GR_2100 gis:load-dataset "grapes_rainfed_hlha_ag_2100BP_LScor.asc"
+  ;set GR_2000 gis:load-dataset "grapes_rainfed_hlha_ag_2000BP_LScor.asc"
+  ;set GR_1900 gis:load-dataset "grapes_rainfed_hlha_ag_1900BP_LScor.asc"
+  ;set GR_1800 gis:load-dataset "grapes_rainfed_hlha_ag_1800BP_LScor.asc"
+  ;set GR_1700 gis:load-dataset "grapes_rainfed_hlha_ag_1700BP_LScor.asc"
+  ;set GR_1600 gis:load-dataset "grapes_rainfed_hlha_ag_1600BP_LScor.asc"
+  ;set GR_1500 gis:load-dataset "grapes_rainfed_hlha_ag_1500BP_LScor.asc"
+  ;set GR_1400 gis:load-dataset "grapes_rainfed_hlha_ag_1400BP_LScor.asc"
+  ;set GR_1300 gis:load-dataset "grapes_rainfed_hlha_ag_1300BP_LScor.asc"
+;end
 
-to apply-Grapes-LPJmL
-  gis:apply-raster GR_2500 GR_2500_
-  gis:apply-raster GR_2400 GR_2400_
-  gis:apply-raster GR_2200 GR_2200_
-  gis:apply-raster GR_2200 GR_2200_
-  gis:apply-raster GR_2100 GR_2100_
-  gis:apply-raster GR_2000 GR_2000_
-  gis:apply-raster GR_1900 GR_1900_
-  gis:apply-raster GR_1800 GR_1800_
-  gis:apply-raster GR_1700 GR_1700_
-  gis:apply-raster GR_1600 GR_1600_
-  gis:apply-raster GR_1500 GR_1500_
-  gis:apply-raster GR_1400 GR_1400_
-  gis:apply-raster GR_1300 GR_1300_
-end
+;to apply-Grapes-LPJmL
+  ;gis:apply-raster GR_2500 GR_2500_
+  ;gis:apply-raster GR_2400 GR_2400_
+  ;gis:apply-raster GR_2200 GR_2200_
+  ;gis:apply-raster GR_2200 GR_2200_
+  ;gis:apply-raster GR_2100 GR_2100_
+  ;gis:apply-raster GR_2000 GR_2000_
+  ;gis:apply-raster GR_1900 GR_1900_
+  ;gis:apply-raster GR_1800 GR_1800_
+  ;gis:apply-raster GR_1700 GR_1700_
+  ;gis:apply-raster GR_1600 GR_1600_
+  ;gis:apply-raster GR_1500 GR_1500_
+  ;gis:apply-raster GR_1400 GR_1400_
+  ;gis:apply-raster GR_1300 GR_1300_
+;end
 
-to import-Olives-LPJmL
-  set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/LPJmL_Alberte_2020/olive_LScor_ASC/olive_LScor_ASC"
-  set OR_2500 gis:load-dataset "olives_rainfed_tha_ag_2500BP_LScor.asc"
-  set OR_2400 gis:load-dataset "olives_rainfed_tha_ag_2400BP_LScor.asc"
-  set OR_2300 gis:load-dataset "olives_rainfed_tha_ag_2300BP_LScor.asc"
-  set OR_2200 gis:load-dataset "olives_rainfed_tha_ag_2200BP_LScor.asc"
-  set OR_2100 gis:load-dataset "olives_rainfed_tha_ag_2100BP_LScor.asc"
-  set OR_2000 gis:load-dataset "olives_rainfed_tha_ag_2000BP_LScor.asc"
-  set OR_1900 gis:load-dataset "olives_rainfed_tha_ag_1900BP_LScor.asc"
-  set OR_1800 gis:load-dataset "olives_rainfed_tha_ag_1800BP_LScor.asc"
-  set OR_1700 gis:load-dataset "olives_rainfed_tha_ag_1700BP_LScor.asc"
-  set OR_1600 gis:load-dataset "olives_rainfed_tha_ag_1600BP_LScor.asc"
-  set OR_1500 gis:load-dataset "olives_rainfed_tha_ag_1500BP_LScor.asc"
-  set OR_1400 gis:load-dataset "olives_rainfed_tha_ag_1400BP_LScor.asc"
-  set OR_1300 gis:load-dataset "olives_rainfed_tha_ag_1300BP_LScor.asc"
-end
+;to import-Olives-LPJmL
+  ;set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/LPJmL_Alberte_2020/olive_LScor_ASC/olive_LScor_ASC"
+  ;set OR_2500 gis:load-dataset "olives_rainfed_tha_ag_2500BP_LScor.asc"
+  ;set OR_2400 gis:load-dataset "olives_rainfed_tha_ag_2400BP_LScor.asc"
+  ;set OR_2300 gis:load-dataset "olives_rainfed_tha_ag_2300BP_LScor.asc"
+  ;set OR_2200 gis:load-dataset "olives_rainfed_tha_ag_2200BP_LScor.asc"
+  ;set OR_2100 gis:load-dataset "olives_rainfed_tha_ag_2100BP_LScor.asc"
+  ;set OR_2000 gis:load-dataset "olives_rainfed_tha_ag_2000BP_LScor.asc"
+  ;set OR_1900 gis:load-dataset "olives_rainfed_tha_ag_1900BP_LScor.asc"
+  ;set OR_1800 gis:load-dataset "olives_rainfed_tha_ag_1800BP_LScor.asc"
+  ;set OR_1700 gis:load-dataset "olives_rainfed_tha_ag_1700BP_LScor.asc"
+  ;set OR_1600 gis:load-dataset "olives_rainfed_tha_ag_1600BP_LScor.asc"
+  ;set OR_1500 gis:load-dataset "olives_rainfed_tha_ag_1500BP_LScor.asc"
+  ;set OR_1400 gis:load-dataset "olives_rainfed_tha_ag_1400BP_LScor.asc"
+  ;set OR_1300 gis:load-dataset "olives_rainfed_tha_ag_1300BP_LScor.asc"
+;end
 
-to apply-Olives-LPJmL
-  gis:apply-raster OR_2500 OR_2500_
-  gis:apply-raster OR_2400 OR_2400_
-  gis:apply-raster OR_2200 OR_2200_
-  gis:apply-raster OR_2200 OR_2200_
-  gis:apply-raster OR_2100 OR_2100_
-  gis:apply-raster OR_2000 OR_2000_
-  gis:apply-raster OR_1900 OR_1900_
-  gis:apply-raster OR_1800 OR_1800_
-  gis:apply-raster OR_1700 OR_1700_
-  gis:apply-raster OR_1600 OR_1600_
-  gis:apply-raster OR_1500 OR_1500_
-  gis:apply-raster OR_1400 OR_1400_
-  gis:apply-raster OR_1300 OR_1300_
-end
+;to apply-Olives-LPJmL
+  ;gis:apply-raster OR_2500 OR_2500_
+  ;gis:apply-raster OR_2400 OR_2400_
+  ;gis:apply-raster OR_2200 OR_2200_
+  ;gis:apply-raster OR_2200 OR_2200_
+  ;gis:apply-raster OR_2100 OR_2100_
+  ;gis:apply-raster OR_2000 OR_2000_
+  ;gis:apply-raster OR_1900 OR_1900_
+  ;gis:apply-raster OR_1800 OR_1800_
+  ;gis:apply-raster OR_1700 OR_1700_
+  ;gis:apply-raster OR_1600 OR_1600_
+  ;gis:apply-raster OR_1500 OR_1500_
+  ;gis:apply-raster OR_1400 OR_1400_
+  ;gis:apply-raster OR_1300 OR_1300_
+;end
 
 to apply-2500BP-climatic-data
   gis:apply-raster P1_2500 P1_2500BP
