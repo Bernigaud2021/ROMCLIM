@@ -142,13 +142,13 @@ to setup
   gis:apply-coverage Dioceses "NAME" Name
   ;ask patches [set plabel Name]
   ;ask patches gis:intersecting Villae_viticoles [sprout-Farms 1]
-  import-Grapes-LPJmL
-  apply-Grapes-LPJmL
-  import-Olives-LPJmL
-  apply-Olives-LPJmL
+  ;import-Grapes-LPJmL
+  ;apply-Grapes-LPJmL
+  ;import-Olives-LPJmL
+  ;apply-Olives-LPJmL
   import-climatic-data
   apply-climatic-data
-  import-2500BP-LPJmL-data
+  ;import-2500BP-LPJmL-data
   ;apply-2500BP-LPJmL-data
   compute-climatic-data
   ;if Century = "2500 BP" [compute-climatic-data-2500BP]
