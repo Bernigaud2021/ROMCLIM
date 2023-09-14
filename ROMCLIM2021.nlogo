@@ -384,10 +384,6 @@ to import-2100BP-climatic-data
   set T12_2100 gis:load-dataset "Climatic_data/TEMP/Temp_2100BP_12.asc"
 end
 
-to import-2500BP-LPJmL-data
-  set WheatR_2500_LPJmL gis:load-dataset "C:/Users/Bernigaud Nicolas/Dropbox/Virtual_Meeting_EAA_2020/wheat_ASC/ASC/wheat_rainfed_tha_ag_2500BP.asc"
-end
-
 to import-2000BP-climatic-data
   set-current-directory "C:/Users/Bernigaud Nicolas/Dropbox/RDMed_postdoc/Article_RDMed_2021/Soumission_PNAS/ROMCLIM_data/External_files"
   set P1_2000 gis:load-dataset "Climatic_data/PRECIP/Precip_2000BP_1.asc"; importation précipitations mensuelles 2000 BP
